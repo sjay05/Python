@@ -14,15 +14,26 @@ picked. I used the **randomization** function to implement this game in programm
 For more details about the problem refer (https://en.wikipedia.org/wiki/Monty_Hall_problem)
 
 `There is a prize inside one of the 3 doors. Your goal is to guess the correct door number to recieve the prize.
+ 
  Choose a door number(0, 1, 2): 0
+ 
  We will reveal one of the doors...
+ 
  ['x', 'x', 'goat']
+ 
  Do you wish to change your choice?(Y or N): Y
+ 
  Congratulations! You won
+ 
  Do you wish to play again?(Y or N): Y
+ 
  Choose a door number(0, 1, 2): 1
+ 
  We will reveal one of the doors...
+ 
  ['goat', 'x', 'x']
+ 
  Do you wish to change your choice?(Y or N): N
+ 
  Sorry, you lost.`
 
