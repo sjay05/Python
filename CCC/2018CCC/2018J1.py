@@ -1,3 +1,4 @@
+
 a = input("What is the first number?: ")
 b = input("What is the second number?: ")
 c = input("What is the third number?: ")

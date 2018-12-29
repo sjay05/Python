@@ -1,4 +1,4 @@
-input = "John"
+input = "Sanjay"
 brackets = "<<>>"
 
 def format_word(input, brackets):

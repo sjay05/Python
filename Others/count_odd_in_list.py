@@ -5,7 +5,7 @@ i = 0
 
 def count_odd(list):
     a = 0
-    i = 0
+    i = 0                            
     while i < len(list):
         if list[i] % 2 != 0:
             a += 1

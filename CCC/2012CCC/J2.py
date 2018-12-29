@@ -8,6 +8,6 @@ if d > c and c > b and b > a:
 elif d < c and c < b and b < a:
     print 'Fish Diving'
 elif d == c and c == b and b == a:
-    print 'Constant Depth'
+    print 'Fish At Constant Depth'
 else:
     print 'No Fish'

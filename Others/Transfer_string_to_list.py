@@ -1,4 +1,4 @@
-name = "John"
+name = "Sanjay"
 
 def transfer_string_to_list(name):
     i = 0
