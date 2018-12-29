@@ -1,7 +1,7 @@
-from CCC.read_input import *
+
 
 n = 4
-rounds = flatten(read_input(str_to_int))
+rounds = input()
 antonia = 100
 david = 100
 i = 0

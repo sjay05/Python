@@ -1,6 +1,4 @@
 from ev3dev.ev3 import *
-from time import sleep
-
 
 motor1 = LargeMotor('outA')
 motor2 = LargeMotor('outB')

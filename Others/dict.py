@@ -1,4 +1,4 @@
-input = "Bob"
+input = "seeni"
 
 # Dictionary or Hashtable
 output = {}

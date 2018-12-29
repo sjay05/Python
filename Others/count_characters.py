@@ -1,4 +1,4 @@
-name = "Bob"
+name = "Sanjay"
 
 def count_characters(name):
     a = 0
