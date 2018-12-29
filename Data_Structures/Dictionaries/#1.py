@@ -1,0 +1,76 @@
+"""
+A dictionary is like a list except that there association between the key and a value. This is called a key-value pair
+or an item. The function 'dict' creates a new dictionary with no items. '{}' represent an empty dictionary.
+"""
+
+#Here is an example dictionary that converts English to Spanish
+
+>>> eng2sp = dict()
+>>> eng2sp
+{}
+
+#To add items you can use square brackets:
+
+>>> eng2sp['one'] = 'uno'
+
+#This line creates an item that maps from the key 'one' to the value 'uno'. If we print the dictionary we see:
+
+>>> eng2sp
+{'one', 'uno'}
+
+#You can also use the output format as a input format. For example:
+
+>>> eng2sp = {'one': 'uno', 'two': 'dos', 'three': 'tres'}
+
+#But if you print it the order it shows up can be unpredictable and might not always match the same order you inputed in.
+
+>>> eng2sp
+{'one': 'uno', 'three': 'tres', 'two': 'dos'}
+
+#But since this is not a list we don't have to rely on the index to find our value.
+#We can always use the keys to looking up corresponding values.
+
+>>> eng2sp['two']
+'dos'
+
+#But we can only search up values that are in the dictionary
+
+>>> eng2sp['four']
+KeyError: 'four'
+
+#The len function also works on dictionaries
+
+>>> len(eng2sp)
+3
+
+#The in function only works on keys and not values
+
+>>> 'one' in eng2sp
+True
+
+>>> 'uno' in eng2sp
+False
+
+#But if you want to search up keys you can do this:
+
+>>> vals = eng2sp.values()
+>>> 'uno' in vals
+True
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
