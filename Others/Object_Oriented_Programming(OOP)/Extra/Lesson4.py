@@ -23,7 +23,7 @@ emp_2 = Employee('Test', 'User', 60000)
 
 print(emp_1.pay)
 emp_1.apply_raise()
-print(emp_1.pay)1
+print(emp_1.pay)
 
 # print(Employee.raise_amount)
 # print(emp_1.raise_amount)

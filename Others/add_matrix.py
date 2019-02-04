@@ -14,6 +14,3 @@ while r < len(matrix1):
     r += 1
 
 print new_matrix
-
-
-

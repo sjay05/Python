@@ -17,7 +17,6 @@ while True:
     #     m = LargeMotor('B')
     #     m.moveRight()
 
-
-c.close()                # Close the connection
+c.close() # Close the connection
 
 
