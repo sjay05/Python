@@ -5,7 +5,8 @@ pointer2 = 1
 def swap(a, b):
     temp = list[a]
     list[a] = list[b]
-    list[b] = tempz
+    list[b] = temp
+
 
 while pointer2 <= len(list)-1:
 

@@ -13,4 +13,3 @@ for c in s:
 
 for i, c in enumerate(ccount):
     print (c, icount[i])
-
