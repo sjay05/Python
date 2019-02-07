@@ -25,5 +25,3 @@ def int_sum(number):
         return int(str(number)[0]) + int_sum(int(str(number)[1:]))
 
 print int_sum(123)
-
-``
