@@ -9,7 +9,7 @@ def digit_sum(value):
         value = int_sum(int(value))
         digit_sum(value)
 
-# recursvive function to calculate sum of digits
+# recursive function to calculate sum of digits
 def int_sum(number):
     if len(str(number)) == 1:
         return number
