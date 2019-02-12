@@ -1,4 +1,4 @@
-"""
+2"""
 A dictionary is like a list except that there association between the key and a value. This is called a key-value pair
 or an item. The function 'dict' creates a new dictionary with no items. '{}' represent an empty dictionary.
 """
