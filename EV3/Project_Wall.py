@@ -1,3 +1,5 @@
+# Attempted code to program ev3 robot to constantly move around a room with walls
+# on all 4 sides.
 from ev3dev.ev3 import *
 
 motor1 = LargeMotor('outA')
